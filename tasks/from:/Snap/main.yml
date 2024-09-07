@@ -1,0 +1,6 @@
+- name: install IntelliJ IDEA Community Edition Snap
+  community.general.snap:
+    name:
+      - intellij-idea-community
+    classic: true
+  become: true

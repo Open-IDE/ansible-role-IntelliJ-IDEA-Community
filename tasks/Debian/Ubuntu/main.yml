@@ -1,0 +1,4 @@
+---
+- name: Ubuntu source
+  include_tasks: "from:/{{ ubuntu_install_source }}/main.yml"
+  when: ubuntu_install_source != "default"
